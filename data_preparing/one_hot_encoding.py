@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Load train data
-df = pd.read_csv('datasets/train_transaction.csv')
+df = pd.read_csv('dataset_sample/train_sample.csv')
 
 # Turn strings into category values 
 for label, content in df.items():
